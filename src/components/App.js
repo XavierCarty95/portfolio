@@ -16,11 +16,11 @@ const App = () => {
       <Router basename={process.env.PUBLIC_URL}>
         <Navy />
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/project' component={Projects} />
-          <Route exact path='/hangman' component={Hangman} />
+          <Link to='/' component={Home} />
+          <Link to='/about' component={About} />
+          <Link to='/contact' component={Contact} />
+          <Route to='/project' component={Projects} />
+          <Route to='/hangman' component={Hangman} />
         </Switch>
       </Router>
       <Github />
