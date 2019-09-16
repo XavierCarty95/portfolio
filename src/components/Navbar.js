@@ -17,13 +17,17 @@ class Navy extends Component {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'></Nav>
           <Nav>
-            <Nav.Link tag={Link} href='/contact'>
+            <Nav.Link tag={Link} Link to={process.env.PUBLIC_URL + '/contact'}>
               Contact
             </Nav.Link>
-            <Nav.Link eventKey={2} href='/about'>
+            <Nav.Link eventKey={2} Link to={process.env.PUBLIC_URL + '/about'}>
               About Me
             </Nav.Link>
-            <Nav.Link eventKey={3} href='/project'>
+            <Nav.Link
+              eventKey={3}
+              Link
+              to={process.env.PUBLIC_URL + '/projects'}
+            >
               Projects
             </Nav.Link>
           </Nav>
