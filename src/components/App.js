@@ -4,7 +4,7 @@ import './App.css';
 import About from './About';
 import Contact from './Contact';
 import Home from './Home';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Github from './Github';
 import { Container } from 'react-bootstrap';
 import Footer from './Footer';
