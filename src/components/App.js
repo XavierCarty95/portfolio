@@ -13,7 +13,7 @@ import Hangman from './Hangman';
 const App = () => {
   return (
     <Container>
-      <HashRouter basename='/'>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Navy />
         <Switch>
           <Route exact path='/' component={Home} />
