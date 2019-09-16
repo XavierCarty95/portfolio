@@ -4,12 +4,7 @@ import './App.css';
 import About from './About';
 import Contact from './Contact';
 import Home from './Home';
-import {
-  BrowserRouter as HashRouter,
-  Route,
-  Link,
-  Switch
-} from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom';
 import Github from './Github';
 import { Container } from 'react-bootstrap';
 import Footer from './Footer';
@@ -21,11 +16,11 @@ const App = () => {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Navy />
         <Switch>
-          <Link to='/' component={Home} />
-          <Link to='/about' component={About} />
-          <Link to='/contact' component={Contact} />
-          <Route to='/project' component={Projects} />
-          <Route to='/hangman' component={Hangman} />
+          <Route exact path={process.env.PUBLIC_URL} component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/project' component={Projects} />
+          <Route exact path='/hangman' component={Hangman} />
         </Switch>
       </HashRouter>
       <Github />
