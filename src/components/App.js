@@ -11,7 +11,7 @@ function App() {
       <div>
         <nav className='navBar'>
           <ul>
-            <li><Link to="/portfolio" className="no-underline">Home</Link></li>
+            <li><Link to="/" className="no-underline">Home</Link></li>
             <li><Link to="/resume"className="no-underline">Resume</Link></li>
             <li><Link to="/about" className="no-underline">About</Link></li>
           </ul>
