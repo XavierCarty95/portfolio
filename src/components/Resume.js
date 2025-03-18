@@ -56,7 +56,7 @@ function Resume() {
               <strong>SwiftUI Widgets:</strong> Introduced the brand directory widget to display different brands of sneakers on the user's dashboard.
             </li>
             <li>
-              <strong>Category Pages:</strong> Developed new brand pages using tableviews, making it easy for users to find specific brands.
+              <strong>Category Pages: </strong> Developed new brand pages using tableviews, making it easy for users to find specific brands.
             </li>
             <li>
               <strong>Responsive Design:</strong> Utilized UIKit to deliver pixel-perfect quality for users.
