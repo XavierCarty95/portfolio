@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-y: scroll;
+    background: url("portfolioback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(242, 241, 237);
+}
+.navBar { 
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0;
+    z-index: 1000; 
+}
+
+.navBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .navBar li {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .navBar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navBar a:hover {
+    color: lightgray;
+  }
+
+  .video-row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .video-item {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .video-item video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* Ensures the video covers the container area while maintaining aspect ratio */
+  }
+
+  .header { 
+    height: 20px;
+  }
+  
+  .container-header { 
+    text-align: center;
+  }
