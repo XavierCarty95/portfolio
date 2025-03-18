@@ -1,12 +1,12 @@
 import React from 'react';
-import './Resume.css'; // You might need to adjust this path
+import './Resume.css';
 
 function Resume() {
   return (
     <div className="resume">
       <div className="header">
         <h1>Xavier Carty</h1>
-        <p>Brooklyn, New York | 914-319-9297 | <a href="mailto:xaviercarty@gmail.com">xaviercarty@gmail.com</a> | <a href="[Portfolio Link]">Portfolio</a> | <a href="https://www.linkedin.com/in/xaviercarty/">LinkedIn</a></p>
+        <p>Brooklyn, New York | 914-319-9297 | <a href="mailto:xaviercarty@gmail.com">xaviercarty@gmail.com</a> | <a href="YOUR_PORTFOLIO_URL">Portfolio</a> | <a href="https://www.linkedin.com/in/xaviercarty/">LinkedIn</a></p>
       </div>
 
       <div className="summary">
