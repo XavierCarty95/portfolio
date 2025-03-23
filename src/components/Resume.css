@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.resume {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: scroll;
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.resume h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.resume h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.resume h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.resume ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: white;
+}
+
+.resume a {
+  color: #c5ba8c;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+.resume .header { 
+  padding-bottom: 20px;
+}
+
+.resume .summary { 
+  padding-bottom: 10px;
+}
+
+.resume li { 
+  padding-bottom: 10px;
+}
+
+.resume p { 
+  font-size: 20px;
+}
