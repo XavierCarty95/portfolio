@@ -7,6 +7,7 @@ import "./Home.css"
 class Home extends Component {
   render() {
     const videoSources = [
+      `${process.env.PUBLIC_URL}/videos/plan.mp4`,
       `${process.env.PUBLIC_URL}/videos/budgeter.mp4`,
       `${process.env.PUBLIC_URL}/videos/checklist-more.mp4`,
       `${process.env.PUBLIC_URL}/videos/dashboard.mp4`,
